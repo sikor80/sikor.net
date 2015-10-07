@@ -1,0 +1,21 @@
+# Rename this file to app.yaml
+
+application: <insert_your_app_id_here>
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /static
+  static_dir: static
+
+- url: .*
+  script: myproject.wsgi.application
+
+
+libraries:
+- name: django
+  version: 1.5
+
+
