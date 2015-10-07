@@ -4,7 +4,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 ## https://code.djangoproject.com/wiki/SplitSettings
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 # Local time zone for this installation. Choices can be found here:
